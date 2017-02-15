@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+h1{
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	font-size: 5em;
+}
+.homefront{
+	background-color: #4353cd;
+	height: inherit;
+	position: relative;
+	z-index: 1;
+}
+
+.titlefolio{
+	margin-top: 50vh;
+	margin-left: 50vw;
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.titlefolio h1{
+	border-right: 7px solid #fff;
+	padding-right: 23px;
+}
